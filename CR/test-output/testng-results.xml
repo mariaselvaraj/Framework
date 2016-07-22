@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="11135" started-at="2016-07-22T08:39:54Z" finished-at="2016-07-22T08:40:05Z">
+    <groups>
+    </groups>
+    <test name="Search text in Google" duration-ms="11135" started-at="2016-07-22T08:39:54Z" finished-at="2016-07-22T08:40:05Z">
+      <class name="cars.testcases.Google">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:cars.testcases.Google@78c03f1f]" name="beforeSuite" is-config="true" duration-ms="521" started-at="2016-07-22T04:39:53Z" finished-at="2016-07-22T04:39:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="startTestCase()[pri:0, instance:cars.testcases.Google@78c03f1f]" name="startTestCase" is-config="true" duration-ms="0" started-at="2016-07-22T04:39:54Z" finished-at="2016-07-22T04:39:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method status="PASS" signature="searchInGoogle()[pri:0, instance:cars.testcases.Google@78c03f1f]" name="searchInGoogle" duration-ms="11109" started-at="2016-07-22T04:39:54Z" description="Google search" finished-at="2016-07-22T04:40:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchInGoogle -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:cars.testcases.Google@78c03f1f]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2016-07-22T04:39:54Z" finished-at="2016-07-22T04:39:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:cars.testcases.Google@78c03f1f]" name="afterMethod" is-config="true" duration-ms="0" started-at="2016-07-22T04:40:05Z" finished-at="2016-07-22T04:40:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:cars.testcases.Google@78c03f1f]" name="afterSuite" is-config="true" duration-ms="312" started-at="2016-07-22T04:40:05Z" finished-at="2016-07-22T04:40:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- cars.testcases.Google -->
+    </test> <!-- Search text in Google -->
+  </suite> <!-- Suite -->
+</testng-results>

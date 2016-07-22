@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Above The Fold Image Verification Test">
+		<parameter name="runForCars" value="2-3" />
+		<classes>
+			<class name="cars.testcases.Home">
+				<methods>
+					<include name="aboveTheFold" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite> <!-- Suite -->

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+		<!-- document encoding -->
+		<encoding>UTF-8</encoding>
+		
+        <!-- title of the document -->
+        <documentTitle>Consumer Reports - CARS Project </documentTitle>
+        
+        <!-- report name - displayed at top-nav -->
+        <reportName>Selenium Test Automation -</reportName>
+        
+        <!-- report headline - displayed at top-nav, after reportHeadline -->
+        <reportHeadline>Consumer Reports</reportHeadline>
+        
+        <!-- custom javascript -->
+        <scripts>
+            <![CDATA[
+                $(document).ready(function() {
+                    
+                });
+            ]]>
+        </scripts>
+        
+        <!-- custom styles -->
+        <styles>
+            <![CDATA[
+                
+            ]]>
+        </styles>
+    </configuration>
+</extentreports>
