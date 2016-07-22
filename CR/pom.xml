@@ -139,34 +139,8 @@
 				<artifactId>maven-install-plugin</artifactId>
 				<version>2.4</version>
 				<executions>
-					<execution>
-						<id>OJDBC Install</id>
-						<phase>pre-clean</phase>
-						<goals>
-							<goal>install-file</goal>
-						</goals>
-						<configuration>
-							<groupId>com.oracle</groupId>
-							<artifactId>oracle</artifactId>
-							<version>1.0.1</version>
-							<packaging>jar</packaging>
-							<file>${basedir}/externalJars/ojdbc/oracle.jar</file>
-						</configuration>
-					</execution>
-					<execution>
-						<id>OCR Install</id>
-						<phase>pre-clean</phase>
-						<goals>
-							<goal>install-file</goal>
-						</goals>
-						<configuration>
-							<groupId>com.asprise</groupId>
-							<artifactId>ocr</artifactId>
-							<version>1.0</version>
-							<packaging>jar</packaging>
-							<file>${basedir}/externalJars/ocr/aocr.jar</file>
-						</configuration>
-					</execution>
+				
+					
 				</executions>
 			</plugin>
 			<plugin>
